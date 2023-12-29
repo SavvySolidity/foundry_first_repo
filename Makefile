@@ -1,0 +1,2 @@
+deploy-sepolia: 
+	forge script script/DeployFundMe.s.sol:DeployFundMe --rpc-url https://eth-sepolia.g.alchemy.com/v2/nofYSX43U9CL_JU1WOav-gwMlBuLcG8i --private-key $(PRIVATE_KEY) --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
